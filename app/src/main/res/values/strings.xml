@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MenuCafeArmanD</string>
+    <string name="buat_pesanan">Buat Pesanan</string>
+    <string name="lihat_pesanan">Lihat Pesanan</string>
+    <string name="lihat_menu">Lihat Menu</string>
+
+    <string-array name="kode_menu">
+        <item>B01</item>
+        <item>B02</item>
+        <item>M03</item>
+        <item>F01</item>
+        <item>F02</item>
+        <item>F03</item>
+        <item>D01</item>
+        <item>D02</item>
+    </string-array>
+
+    <string-array name="jenis_menu">
+        <item>Minuman</item>
+        <item>Minuman</item>
+        <item>Minuman</item>
+        <item>Makanan</item>
+        <item>Makanan</item>
+        <item>Makanan</item>
+        <item>Dessert</item>
+        <item>Dessert</item>
+    </string-array>
+
+    <string-array name="nama_menu">
+        <item>Kopi Hitam</item>
+        <item>Cappucino</item>
+        <item>Sparkling Tea</item>
+        <item>Batagor</item>
+        <item>Cireng</item>
+        <item>Nasi Goreng</item>
+        <item>Cheese Cake</item>
+        <item>Kopi Hitam</item>
+    </string-array>
+
+</resources>
