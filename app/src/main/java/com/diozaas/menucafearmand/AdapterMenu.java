@@ -32,7 +32,11 @@ public class AdapterMenu extends RecyclerView.Adapter<AdapterMenu.MenuViewHolder
 
     @Override
     public void onBindViewHolder(@NonNull MenuViewHolder holder, final int position) {
-//        holder.nama.setText(ListMenu.get(position).nama);
+        holder.kode.setText(listMenu.get(position).kode);
+        holder.jenis.setText(listMenu.get(position).jenis);
+        holder.nama.setText(listMenu.get(position).nama);
+        holder.desc.setText(listMenu.get(position).desc);
+        holder.harga.setText(listMenu.get(position).harga);
 //
 ////        holder.gambar.setImageResource(listMakanan.get(position).photo);
 ////        Glide.with(context).load(listMenu.get(position).getPhoto()).into(holder.gambar);
@@ -51,7 +55,7 @@ public class AdapterMenu extends RecyclerView.Adapter<AdapterMenu.MenuViewHolder
 
     @Override
     public int getItemCount() {
-        return 0;
+        return listMenu.size();
     }
 
     public class MenuViewHolder extends RecyclerView.ViewHolder {
@@ -66,7 +70,7 @@ public class AdapterMenu extends RecyclerView.Adapter<AdapterMenu.MenuViewHolder
             jenis = itemView.findViewById(R.id.jenis);
             nama = itemView.findViewById(R.id.nama_makanan);
             desc = itemView.findViewById(R.id.deskripsi);
-            nama = itemView.findViewById(R.id.harga);
+            harga = itemView.findViewById(R.id.harga);
         }
     }
 }
